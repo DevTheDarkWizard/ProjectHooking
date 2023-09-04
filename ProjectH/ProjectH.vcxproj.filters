@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{8d4e5b3c-4e9d-4950-b197-ee53520a3025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{c4133d00-72f0-4376-9471-84aa906e17b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{13c8c2de-1606-49b1-92c4-f37a6e683d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packets">
+      <UniqueIdentifier>{e4b8aa74-a46c-4de0-bc1a-8b2ef50a7c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Pathfinder">
+      <UniqueIdentifier>{f11b9e2a-2b15-4690-88b1-63dba86b099a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{4ba364a4-c65f-41e0-8ae1-bc1deb148585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packers">
+      <UniqueIdentifier>{28fb0045-4d0d-4e76-88dc-6bdbdc42430b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet">
+      <UniqueIdentifier>{dee4e053-aaa4-4e91-a820-61d924e4ad55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlayerModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.hpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sender.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="AttackModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="pMovePlayer.h">
+      <Filter>Network\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinders.cpp">
+      <Filter>Utils\Pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinder.hpp">
+      <Filter>Utils\Pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketPacker.cpp">
+      <Filter>Network\Packers</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketUnpacker.cpp">
+      <Filter>Network\Packers</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="LootModule.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="DigimonModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Sender.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PetModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFunctions.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pArrangeBattle.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinders.h">
+      <Filter>Utils\Pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="MapModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketPacker.h">
+      <Filter>Network\Packers</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.hpp">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketData.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Packets.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBody.h">
+      <Filter>Network\Packers</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketUnpacker.h">
+      <Filter>Network\Packers</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="pBattleAttack.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="pDigivolve.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="pAddCard.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="pRemoveCard.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="LootModule.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="pGetItemDrop.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="pGetCardDrop.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
